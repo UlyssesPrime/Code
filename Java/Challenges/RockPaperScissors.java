@@ -6,10 +6,10 @@ public class RockPaperScissors {
     String pThrow = in.nextLine();
     String cThrow = " ";
     double gThrow = Math.random();
-    if (gThrow >= 0 && gThrow < 0.33){
+    if (gThrow >= 0 && gThrow < 0.339999999999999999999999999999){
       cThrow = "Rock";
     }
-    else if (gThrow >= 0.34 && gThrow < 0.66){
+    else if (gThrow >= 0.34 && gThrow < 0.669999999999999999999999999999999999){
       cThrow = "Paper";
     }
     else if (gThrow >= 0.67 && gThrow < 1){
